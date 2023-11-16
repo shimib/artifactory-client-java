@@ -1,5 +1,6 @@
 name: "Frogbot Scan and Fix"
 on:
+  workflow_dispatch:
   schedule:
     - cron:  '35 0 * * *'
 #  push:
