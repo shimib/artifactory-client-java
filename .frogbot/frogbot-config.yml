@@ -1,0 +1,9 @@
+- params:
+         git:
+           repoName: artifactory-client-java
+           branches:
+             - main
+         scan:
+           packageManager: mvn
+           installDepsCmd: mvn install
+           includeAllVulnerabilities: true
