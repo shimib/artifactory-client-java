@@ -2,7 +2,7 @@
          git:
            repoName: artifactory-client-java
            branches:
-             - main
+             - master
          scan:
            packageManager: mvn
            installDepsCmd: mvn install
